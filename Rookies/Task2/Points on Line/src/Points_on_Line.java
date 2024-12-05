@@ -4,21 +4,28 @@ public class Points_on_Line {
     public static void main(String[] args) {
         Scanner s =new Scanner(System.in);
         int n=s.nextInt();
-        int [] arr =new int[n];
+        long d=s.nextLong();
+        long [] arr =new long[n];
         for(int i=0;i<n;i++){
-            arr[i]=s.nextInt();
+            arr[i]=s.nextLong();
         }
-    }
-    public static int BinarySearch(long x ,int []a){
-        int l=0 ,r=a.length;
-        while(l<r){
-            int n = (r+l)/2;
-            if(x>= a[n]){
-                l=n+1;
-            }else if(x<a[n]){
-                r=n;
+        int k=0;
+        long r=0;
+        long c=0;
+        for(int i=0;i<n;i++){
+
+
+            while (k < n && arr[k] - arr[i] <= d) {
+                k++;
             }
+             c=k-i -1;
+            if(c>=2){
+                r +=  (c*(c-1))/2;
+            }
+
         }
-        return l;
+
+        System.out.print(r);
     }
+
 }

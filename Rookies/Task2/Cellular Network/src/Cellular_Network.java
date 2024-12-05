@@ -11,43 +11,23 @@ public class Cellular_Network {
         long []t =new long[m];
 
         for(int i=0;i<n;i++){
-            c[i]=s.nextInt();
+            c[i]=s.nextLong();
         }
         for(int i=0;i<m;i++){
-            t[i]=s.nextInt();
+            t[i]=s.nextLong();
         }
-        Arrays.sort(c);
-        Arrays.sort(t);
-
-        long l=0 ,r = (long)1e9;
-//        long k=(long)1e9;
-        while(l<r){
-            long mi = (l+r)/2;
-            if(check(mi ,c,t)){
-
-               r =mi;
-            }else{
-                l=mi+1;
-            }
-        }
-        System.out.print(l);
-
-    }
-    public static boolean check(long x , long []c , long []t){
-        int i = 0, j = 0;
-        while (i < c.length) {
-
-            while (j < t.length && t[j] < c[i] - x) {
+        long r=0;
+        int j=0;
+        for(int i=0;i<n;i++){
+            while(j<m-1 && Math.abs(t[j+1]-c[i])<=Math.abs(t[j]-c[i])){
                 j++;
             }
-
-            if (j < t.length && Math.abs(t[j] - c[i]) <= x) {
-                i++;
-            } else {
-                return false;
-            }
+            long dd = Math.abs(t[j]-c[i]);
+            r=Math.max(dd,r);
         }
-        return true;
+        System.out.print(r);
+
     }
+
 
 }
