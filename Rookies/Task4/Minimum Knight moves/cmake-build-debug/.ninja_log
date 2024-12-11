@@ -1,0 +1,4 @@
+# ninja log v6
+15	357	7556446010846520	build.ninja	38d65e78ba87bcb5
+33	954	7556446012096508	CMakeFiles/Minimum_Knight_moves.dir/Minimum_Knight_moves.cpp.obj	8535f5dda99265be
+960	1137	7556446021372855	Minimum_Knight_moves.exe	d4f6a1b09d3b6ea2

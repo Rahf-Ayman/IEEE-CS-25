@@ -1,0 +1,3 @@
+D:/eng/IEEE-CS-25/Rookies/Task4/Minimum Knight moves/cmake-build-debug/CMakeFiles/Minimum_Knight_moves.dir
+D:/eng/IEEE-CS-25/Rookies/Task4/Minimum Knight moves/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/eng/IEEE-CS-25/Rookies/Task4/Minimum Knight moves/cmake-build-debug/CMakeFiles/rebuild_cache.dir

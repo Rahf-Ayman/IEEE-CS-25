@@ -1,0 +1,3 @@
+D:/eng/IEEE-CS-25/Rookies/Task4/Building Roads/cmake-build-debug/CMakeFiles/roads.dir
+D:/eng/IEEE-CS-25/Rookies/Task4/Building Roads/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/eng/IEEE-CS-25/Rookies/Task4/Building Roads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
