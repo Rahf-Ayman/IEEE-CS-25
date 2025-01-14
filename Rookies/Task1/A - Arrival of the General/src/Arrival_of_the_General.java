@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Arrival_of_the_General {
     public static void main(String[] args) {
         Scanner s =new Scanner(System.in);
         int num =s.nextInt();

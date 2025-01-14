@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Launch_of_Collider {
     static boolean flag=false;
     public static void main(String[] args) {
 
