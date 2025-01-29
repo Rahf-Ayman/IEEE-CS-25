@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-public class Main {
+public class Weird_Algorithm {
     static StringBuilder ss =new StringBuilder("");
 
     public static void main(String[] args) {

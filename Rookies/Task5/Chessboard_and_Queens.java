@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Chessboard_and_Queens {
     public static int c =0;
     public static char[][]board=new char[8][8];
     public static boolean[]columns=new boolean[8];
